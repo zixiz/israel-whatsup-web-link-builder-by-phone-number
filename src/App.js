@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+
 
 function App() {
+  const [phoneNumber,setPhoneNumber] = useState('')
+  const [link, setLink] = useState(null)
+
+  const makeAWhatsUpLink = () =>{
+    setLink(`https://api.WhatsApp.com/send?phone=+972${phoneNumber}`);
+
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <div>
+        <label>Enter a Phone number</label>
+        <input value={phoneNumber} onChange={(e)=> setPhoneNumber(e.target.value)}/>
+        <button onClick={makeAWhatsUpLink}>Take me to whatsup</button>
+      </div>
+      <div>
+        {link ? <a href={link}>{link}</a> : null}
+      </div>
     </div>
   );
 }
