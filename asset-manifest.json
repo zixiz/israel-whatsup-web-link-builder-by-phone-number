@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/israel-whatsup-web-link-builder-by-phone-number/static/js/main.d0042953.chunk.js",
-    "main.js.map": "/israel-whatsup-web-link-builder-by-phone-number/static/js/main.d0042953.chunk.js.map",
+    "main.js": "/israel-whatsup-web-link-builder-by-phone-number/static/js/main.b50a51d7.chunk.js",
+    "main.js.map": "/israel-whatsup-web-link-builder-by-phone-number/static/js/main.b50a51d7.chunk.js.map",
     "runtime-main.js": "/israel-whatsup-web-link-builder-by-phone-number/static/js/runtime-main.3441965f.js",
     "runtime-main.js.map": "/israel-whatsup-web-link-builder-by-phone-number/static/js/runtime-main.3441965f.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/israel-whatsup-web-link-builder-by-phone-number/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.12cd2648.chunk.js": "/israel-whatsup-web-link-builder-by-phone-number/static/js/2.12cd2648.chunk.js",
     "static/js/2.12cd2648.chunk.js.map": "/israel-whatsup-web-link-builder-by-phone-number/static/js/2.12cd2648.chunk.js.map",
     "index.html": "/israel-whatsup-web-link-builder-by-phone-number/index.html",
-    "precache-manifest.3a1156246377c0d8e98e59de004a6040.js": "/israel-whatsup-web-link-builder-by-phone-number/precache-manifest.3a1156246377c0d8e98e59de004a6040.js",
+    "precache-manifest.13c459e636131d63173ae4fb2503a68d.js": "/israel-whatsup-web-link-builder-by-phone-number/precache-manifest.13c459e636131d63173ae4fb2503a68d.js",
     "service-worker.js": "/israel-whatsup-web-link-builder-by-phone-number/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/israel-whatsup-web-link-builder-by-phone-number/static/css/2.d9ad5f5c.chunk.css.map",
     "static/js/2.12cd2648.chunk.js.LICENSE.txt": "/israel-whatsup-web-link-builder-by-phone-number/static/js/2.12cd2648.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3441965f.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.12cd2648.chunk.js",
-    "static/js/main.d0042953.chunk.js"
+    "static/js/main.b50a51d7.chunk.js"
   ]
 }

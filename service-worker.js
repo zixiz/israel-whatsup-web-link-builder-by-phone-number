@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/israel-whatsup-web-link-builder-by-phone-number/precache-manifest.3a1156246377c0d8e98e59de004a6040.js"
+  "/israel-whatsup-web-link-builder-by-phone-number/precache-manifest.13c459e636131d63173ae4fb2503a68d.js"
 );
 
 self.addEventListener('message', (event) => {
