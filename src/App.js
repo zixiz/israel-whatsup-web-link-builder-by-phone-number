@@ -1,26 +1,27 @@
 import React, {useState} from 'react';
-
+import {Container,Row,Col,Button,Form} from 'react-bootstrap'
 
 function App() {
   const [phoneNumber,setPhoneNumber] = useState('')
-  const [link, setLink] = useState(null)
 
-  const makeAWhatsUpLink = () =>{
-    setLink(`https://api.WhatsApp.com/send?phone=+972${phoneNumber}`);
-
-  }
 
   return (
-    <div> 
-      <div>
-        <label>Enter a Phone number</label>
-        <input value={phoneNumber} onChange={(e)=> setPhoneNumber(e.target.value)}/>
-        <button onClick={makeAWhatsUpLink}>Take me to whatsup</button>
-      </div>
-      <div>
-        {link ? <a href={link}>{link}</a> : null}
-      </div>
-    </div>
+    <Container> 
+      <Row>
+        <Col md={{ span: 6, offset: 3 }}>
+          <Form.Group>
+              <Form.Label htmlFor="input">Enter a Phone number:</Form.Label>
+              <Form.Control id="input" value={phoneNumber} onChange={(e)=> setPhoneNumber(e.target.value)}/>
+            </Form.Group>
+            <Form.Group>
+                {phoneNumber ? 
+                <Button variant="primary" block target="_blank" href={`https://api.WhatsApp.com/send?phone=+972${phoneNumber}`}>
+                  What's Up: {phoneNumber}</Button>
+                 : null}
+            </Form.Group>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
