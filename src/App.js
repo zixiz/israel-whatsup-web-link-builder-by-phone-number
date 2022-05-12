@@ -15,7 +15,7 @@ function App() {
             </Form.Group>
             <Form.Group>
                 {phoneNumber ? 
-                <Button variant="primary" block target="_blank" href={`https://api.WhatsApp.com/send?phone=+972${phoneNumber}`}>
+                <Button variant="primary" block target="_blank" href={`https://wa.me/+972${phoneNumber}`}>
                   What's Up: {phoneNumber}</Button>
                  : null}
             </Form.Group>
